@@ -10,13 +10,23 @@ footer {
 footer > div {
   display: inline-block;
   height: 60px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   margin-left: 15px;
   width: 100px;
 }
 footer div:last-child {
   display: inline-block;
   float: right;
-  margin-right: 15px;
+  margin-right: 4px;
   width: 300px;
+}
+footer > div > address {
+  margin: 2px;
+}
+footer > div > audio {
+  margin: 2px;
+  border-style: ridge;
+  border-radius: 8px;
+  border-color: rgba(100, 7, 7, 0.527);
+  border-width: 2px;
 }
